@@ -23,10 +23,18 @@ def main():
     branch = input("Enter branch or service: ")
     gender = input("Enter gender: ")
     age = int(input("Enter age: "))
-#Left a note to show that this is only made for ages 31 and under
+# I Left a note to show that this is only made for ages 31 and under
     if age > 31:
         print("\nNote: This calculator is designed for ages 31 and under.")
     
+    deadlift = get_event_score("Deadlift")
+    pushups = get_event_score("Hand-Release Push-Ups")
+    sprint_drag_carry = get_event_score("Sprint-Drag-Carry")
+    plank = get_event_score("Plank")
+    two_mile_run = get_event_score("Two-Mile Run")
+ 
+    total_score = deadlift + pushups + sprint_drag_carry + plank + two_mile_run
+    result = pass_or_fail(total_score)
 
 
 
