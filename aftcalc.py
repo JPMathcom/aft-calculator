@@ -34,9 +34,21 @@ def main():
     two_mile_run = get_event_score("Two-Mile Run")
  
     total_score = deadlift + pushups + sprint_drag_carry + plank + two_mile_run
+   
+   # aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
     result = pass_or_fail(total_score)
-
-
+    print("\nAFT Score Report")
+    print("----------------")
+    print(f"Branch: {branch}")
+    print(f"Gender: {gender}")
+    print(f"Age: {age}")
+    print(f"Deadlift: {deadlift}")
+    print(f"Hand-Release Push-Ups: {pushups}")
+    print(f"Sprint-Drag-Carry: {sprint_drag_carry}")
+    print(f"Plank: {plank}")
+    print(f"Two-Mile Run: {two_mile_run}")
+    print(f"Total Score: {total_score}/500")
+    print(f"Result: {result}")
 
 
 
