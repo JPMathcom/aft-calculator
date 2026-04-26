@@ -50,12 +50,14 @@ def main():
     print(f"Total Score: {total_score}/500")
     print(f"Result: {result}")
 
+main()
 
 
 
 
 
-#I asked Copilot tips to get started writing an AFT Calculator pthon program and I gave the advice to use simple functions and take advanatage of 'get'
+
+#I asked Copilot tips to get started writing an AFT Calculator python program and I gave the advice to use simple functions and take advanatage of 'get'
 
 # I used the video in the link below for reference in buliding calculators.
 #https://www.bing.com/videos/riverview/relatedvideo?q=Buliding+python+programs+to+calculate+fitness+scors&&mid=DA541E86A83209438C01DA541E86A83209438C01&churl=https%3a%2f%2fwww.youtube.com%2fchannel%2fUCuVHFNhFRxFu0hMEFV2U8LA&mmscn=mtsc&aps=246&FORM=VMSOVR
