@@ -19,3 +19,11 @@ The program takes scores and other variables given by the user for and uses cond
 Jeremiah Persons
 
 
+
+ 
+                                # AI Reflection
+   For this assignment, I used AI to help me get started and guide me through 
+building my Army Fitness Test, AFT,  calculator in Python. At first, I didn’t really know how to structure the program, so I asked AI what a good starting point would be. It suggested using functions with def, along with parameters, which helped me organize my code better. That’s how I came up with the get_event_score function, which made things a lot cleaner instead of repeating the same code for every event.
+
+
+
